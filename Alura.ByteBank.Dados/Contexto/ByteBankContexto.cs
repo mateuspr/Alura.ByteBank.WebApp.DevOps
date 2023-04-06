@@ -6,6 +6,7 @@ namespace Alura.ByteBank.Dados.Contexto
 {
     public class ByteBankContexto:DbContext
     {
+        //Adicionando Comentário
         public DbSet<ContaCorrente> ContaCorrentes { get; set; }
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Agencia> Agencias { get; set; }
